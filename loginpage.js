@@ -8,7 +8,7 @@ function formvalidation() {
   const password = document.getElementById("Password").value.trim();
 
   if (username === "admin" && password === "password") {
-    window.location.href = "daskboard.html";
+    window.location.href = "welcome.html";
   } if(username !== "admin" ) {
     document.getElementById("usernameError").innerHTML = "User name not Valid";
   }
