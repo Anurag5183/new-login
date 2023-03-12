@@ -8,12 +8,12 @@ function formvalidation() {
   const password = document.getElementById("Password").value.trim();
 
   if (username === "admin" && password === "password") {
-    window.location.href = "welcome.html";
+    window.location.href = "portfolio.html";
   } if(username !== "admin" ) {
     document.getElementById("usernameError").innerHTML = "User name not Valid";
   }
   if(password !== "password"){
-    document.getElementById("passwordError").innerHTML = "Password invalid"
+    document.getElementById("passwordError").innerHTML = "Password invalid";
   }
   else if(username !== "admin" || password !== "password"){
     alert("username and password Invalid");

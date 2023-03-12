@@ -11,7 +11,7 @@
 
 body {
     /* text-align: center; */
-    background-color: #078cd9;
+    background-color: #303841;
 
 }
 
@@ -37,7 +37,7 @@ body {
 }
 
 .submit {
-    background-color: #0084ff;
+    background-color: #be3144;
     padding: 1rem;
     border: none;
     color: #fff;
@@ -80,7 +80,7 @@ body {
 
 .input:focus {
     outline: none;
-    border: 1px solid #0084ff;
+    border: 0.1px solid #303841;
     background-clip: padding-box;
 }
 
