@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="loginpage.css">
+    <script src="loginpage.js"></script>
+    
+</head>
+
+<body class="login">
+    <div class="container">
+
+        <h2 class="text-center">Login</h2>
+        <form class="login-inform" onsubmit="return formvalidation()">
+            <div class="input-group">
+                <label for="username" class="label">User name</label>
+                <input type="text" class="input" id="username">
+                <span class="error-message" id="usernameError"></span>
+            </div>
+            <div class="input-group">
+                <label for="password" class="label">Password</label>
+                <input type="password" class="input" id="Password">
+                <span class="error-message" id="passwordError"></span>
+            </div>
+            <br>
+            <input value="Login" class="submit" type="submit">
+        </form>
+        
+    </div>
+</body>
+</html>
